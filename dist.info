@@ -1,0 +1,15 @@
+--- This file is part of LuaDist project
+
+name = "lcurses"
+version = "5.1"
+
+desc = "Lua bindings for Curses (text user interface)."
+author = "Reuben Thomas)"
+license = "GPL3"
+url = "https://github.com/rrthomas/lcurses"
+maintainer = "David Manura"
+
+depends = {
+	"lua ~> 5.1"
+	-- FIX: and curses
+}
